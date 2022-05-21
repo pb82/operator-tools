@@ -18,7 +18,7 @@ import (
 	appsv1 "k8s.io/api/apps/v1"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/api/extensions/v1beta1"
-	networkingv1beta1 "k8s.io/api/networking/v1beta1"
+	networkingv1 "k8s.io/api/networking/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
@@ -82,10 +82,10 @@ type IngressExtensionsV1beta1 struct {
 // +kubebuilder:object:generate=true
 
 // IngressExtensionsV1beta1 is a subset of [Ingress in k8s.io/api/networking/v1beta1](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#ingress-v1-networking-k8s-io).
-type IngressNetworkingV1beta1 struct {
+type IngressNetworkingV1 struct {
 	ObjectMeta `json:"metadata,omitempty"`
 	// Kubernetes [Ingress Specification](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#ingressclassspec-v1-networking-k8s-io)
-	Spec networkingv1beta1.IngressSpec `json:"spec,omitempty"`
+	Spec networkingv1.IngressSpec `json:"spec,omitempty"`
 }
 
 // +kubebuilder:object:generate=true
