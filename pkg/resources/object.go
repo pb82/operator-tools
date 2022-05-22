@@ -27,7 +27,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer/json"
 	k8syaml "k8s.io/apimachinery/pkg/util/yaml"
 
-	"github.com/banzaicloud/operator-tools/pkg/logger"
+	"github.com/pb82/operator-tools/pkg/logger"
 )
 
 var log = logger.Log

@@ -19,7 +19,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/banzaicloud/operator-tools/pkg/types"
+	"github.com/pb82/operator-tools/pkg/types"
 )
 
 func ServiceIPModifier(current, desired runtime.Object) error {

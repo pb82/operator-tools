@@ -22,8 +22,8 @@ import (
 	"strings"
 
 	"emperror.dev/errors"
-	"github.com/banzaicloud/operator-tools/pkg/resources"
 	"github.com/ghodss/yaml"
+	"github.com/pb82/operator-tools/pkg/resources"
 	"helm.sh/helm/v3/pkg/chart"
 	"helm.sh/helm/v3/pkg/releaseutil"
 

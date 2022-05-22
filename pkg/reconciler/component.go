@@ -18,10 +18,10 @@ import (
 	"context"
 
 	"emperror.dev/errors"
-	"github.com/banzaicloud/operator-tools/pkg/resources"
-	"github.com/banzaicloud/operator-tools/pkg/types"
-	"github.com/banzaicloud/operator-tools/pkg/utils"
 	"github.com/go-logr/logr"
+	"github.com/pb82/operator-tools/pkg/resources"
+	"github.com/pb82/operator-tools/pkg/types"
+	"github.com/pb82/operator-tools/pkg/utils"
 	"k8s.io/apimachinery/pkg/runtime"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/builder"
