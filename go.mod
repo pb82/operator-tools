@@ -1,4 +1,4 @@
-module github.com/banzaicloud/operator-tools
+module github.com/pb82/operator-tools
 
 go 1.17
 
