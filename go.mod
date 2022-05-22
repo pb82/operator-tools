@@ -32,6 +32,8 @@ require (
 
 require k8s.io/cli-runtime v0.23.1 // indirect
 
+require github.com/banzaicloud/operator-tools v0.28.4
+
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/BurntSushi/toml v0.3.1 // indirect
